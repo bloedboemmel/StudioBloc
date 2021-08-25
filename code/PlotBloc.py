@@ -146,11 +146,8 @@ def write_to_readme(visitors, free, percent, average, png_name, Stadt):
 
 if __name__ == '__main__':
     if times[weekday][0] <= now.hour <= times[weekday][1]:
-        # dummydays()
-        main('Nürnberg')
-        main('Zirndorf')
-        main('Konstanz')
-        main('Passau')
+        main('Mannheim')
+        main('Darmstadt')
     else:
         print("Not opened right now!")
         sys.exit(1)

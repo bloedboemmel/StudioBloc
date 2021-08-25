@@ -1,23 +1,21 @@
 import calendar
 import csv
 import json
-import pause
-from datetime import datetime, timedelta, date, timezone
-from time import sleep
+import os
+from datetime import datetime, date
 import pytz
 from bs4 import BeautifulSoup
 import requests
 
 header = ['Zeit', 'Besucher', 'Frei', 'Auslastung']
-url = 'https://www.dersteinbock-nuernberg.de/'
 tz = pytz.timezone('Europe/Berlin')
 
 
 def getnow(Stadt):
     if Stadt == 'Darmstadt':
-        ans = requests.get(src="https://www.boulderado.de/boulderadoweb/gym-clientcounter/index.php?mode=get&token"
-                               "=eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0dWRpb0Jsb2MifQ"
-                               ".fPOKp49FQ9geu6CC9ueB3U3yW2VmwKxD5M0BIobtWQc")
+        ans = requests.get("https://www.boulderado.de/boulderadoweb/gym-clientcounter/index.php?mode=get&token"
+                           "=eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0dWRpb0Jsb2MifQ"
+                           ".fPOKp49FQ9geu6CC9ueB3U3yW2VmwKxD5M0BIobtWQc")
     elif Stadt == 'Mannheim':
         ans = requests.get(
             "https://www.boulderado.de/boulderadoweb/gym-clientcounter/index.php?mode=get&token"
@@ -39,10 +37,16 @@ def getnow(Stadt):
 
 
 def dumpit(data, Stadt):
-    with open(f'./today/{Stadt}Belegung.csv', 'a', encoding='UTF8', newline='') as f:
+    if os.path.exists(f'today/{Stadt}Belegung.csv'):
+        mode = 'a'
+
+    else:
+        mode = 'w'
+    with open(f'today/{Stadt}Belegung.csv', mode, encoding='UTF8', newline='') as f:
         writer = csv.writer(f, delimiter=";")
         # write multiple rows
         writer.writerow(data)
+
     write_average(data[3], Stadt)
 
 
@@ -56,19 +60,3 @@ def write_average(Anteil, Stadt):
 
     with open(f'days/{Stadt}/{dayname}.txt', 'w') as outfile:
         json.dump(d, outfile)
-
-
-if __name__ == '__main__':
-    while True:
-        if 9 <= datetime.now(tz).hour < 22:
-            try:
-                getnow('Nürnberg')
-                sleep(60)
-            except:
-                header = header
-                sleep(60)
-        else:
-            n = datetime.now(tz)
-            n += timedelta(days=1)
-            n.replace(hour=9, minute=0, second=0, microsecond=0)
-            pause.until(n)
