@@ -1,0 +1,47 @@
+name: BlocDichWeg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 2 * * *' #At 02:02 AM
+jobs:
+  move:
+    runs-on: ubuntu-latest
+    steps:
+      # Set up environment variables
+      - name: Setting up environment
+        run: |
+          echo "ISSUE_NUMBER=${{ github.event.issue.number }}" >> $GITHUB_ENV
+          echo "GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+          echo "REPOSITORY_OWNER=${{ github.repository_owner }}" >> $GITHUB_ENV
+
+      - uses: actions/checkout@v2
+      - name: Rm belegung.csv
+        run: |
+          rm ./today/*Belegung.csv
+
+
+      # Set up a Python 3.8 (64-bit) instance
+      - name: Setting up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+          architecture: "x64"
+
+      # Use pip to install the dependencies and then run the script
+      - name: pip install dependencies
+        run: |
+          pip install -r code/requirements.txt
+
+      - name: Run WochenBloc.py
+        run: |
+          python code/WochenBloc.py
+
+
+      # Create new commit with the changed files and push it to GitHub
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "🐐 Removed all files, so we can start in another day!"
+          git push
