@@ -1,8 +1,8 @@
 # Hi Studio Bloc-Fans,
-this is a plot of the official Visitor-Numbers of  [Studio Bloc Darmstadt](https://darmstadt.studiobloc.de/) and [Studio Bloc Darmstadt](https://mannheim.studiobloc.de/)
+this is a plot of the official Visitor-Numbers of  [Studio Bloc Darmstadt](https://darmstadt.studiobloc.de/) and [Studio Bloc Mannheim](https://mannheim.studiobloc.de/)
 
 ### Is it busy right now? 
-| [Studio Bloc Darmstadt](https://darmstadt.studiobloc.de/) | [Studio Bloc Darmstadt](https://mannheim.studiobloc.de/) | 
+| [Studio Bloc Darmstadt](https://darmstadt.studiobloc.de/) | [Studio Bloc Mannheim](https://mannheim.studiobloc.de/) | 
 |:-:|:-:|
 |<!-- BEGIN UPDATINGDATA BOARD Darmstadt-->17 out of 150 allowed visitors. --> 11% occupied! 1% more than average!<!-- END UPDATINGDATA BOARD Darmstadt-->|<!-- BEGIN UPDATINGDATA BOARD Mannheim-->11 out of 80 allowed visitors. --> 14% occupied! That's average!<!-- END UPDATINGDATA BOARD Mannheim-->|
 |<!-- BEGIN UPDATINGPNG BOARD Darmstadt--><img src="./png/Nürnberg14_31_07.png"><!-- END UPDATINGPNG BOARD Darmstadt-->|<!-- BEGIN UPDATINGPNG BOARD Mannheim--><img src="./png/Zirndorf14_31_08.png"><!-- END UPDATINGPNG BOARD Mannheim-->|
