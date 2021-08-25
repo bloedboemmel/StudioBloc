@@ -37,12 +37,12 @@ def getnow(Stadt):
 
 
 def dumpit(data, Stadt):
-    if os.path.exists(f'today/{Stadt}Belegung.csv'):
+    if os.path.exists(f'./today/{Stadt}Belegung.csv'):
         mode = 'a'
 
     else:
         mode = 'w'
-    with open(f'today/{Stadt}Belegung.csv', mode, encoding='UTF8', newline='') as f:
+    with open(f'./today/{Stadt}Belegung.csv', mode, encoding='UTF8', newline='') as f:
         writer = csv.writer(f, delimiter=";")
         # write multiple rows
         writer.writerow(data)
