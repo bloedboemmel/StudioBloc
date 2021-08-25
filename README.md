@@ -4,8 +4,8 @@ this is a plot of the official Visitor-Numbers of  [Studio Bloc Darmstadt](https
 ### Is it busy right now? 
 | [Studio Bloc Darmstadt](https://darmstadt.studiobloc.de/) | [Studio Bloc Mannheim](https://mannheim.studiobloc.de/) | 
 |:-:|:-:|
-|<!-- BEGIN UPDATINGDATA BOARD Darmstadt-->51 out of 150 allowed visitors. --> 34% occupied! That's average!<!-- END UPDATINGDATA BOARD Darmstadt-->|<!-- BEGIN UPDATINGDATA BOARD Mannheim-->41 out of 130 allowed visitors. --> 32% occupied! 1% more than average!<!-- END UPDATINGDATA BOARD Mannheim-->|
-|<!-- BEGIN UPDATINGPNG BOARD Darmstadt--><img src="./png/Darmstadt16_34_00.png"><!-- END UPDATINGPNG BOARD Darmstadt-->|<!-- BEGIN UPDATINGPNG BOARD Mannheim--><img src="./png/Mannheim16_33_59.png"><!-- END UPDATINGPNG BOARD Mannheim-->|
+|<!-- BEGIN UPDATINGDATA BOARD Darmstadt-->49 out of 150 allowed visitors. --> 33% occupied! 39% less than average!<!-- END UPDATINGDATA BOARD Darmstadt-->|<!-- BEGIN UPDATINGDATA BOARD Mannheim-->43 out of 130 allowed visitors. --> 33% occupied! 1% more than average!<!-- END UPDATINGDATA BOARD Mannheim-->|
+|<!-- BEGIN UPDATINGPNG BOARD Darmstadt--><img src="./png/Darmstadt16_41_18.png"><!-- END UPDATINGPNG BOARD Darmstadt-->|<!-- BEGIN UPDATINGPNG BOARD Mannheim--><img src="./png/Mannheim16_41_17.png"><!-- END UPDATINGPNG BOARD Mannheim-->|
 
 
 <details>
