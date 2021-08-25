@@ -1,9 +1,9 @@
-name: BlocDichAusWochenende
+name: BlocDichAusWochentags
 
 on:
   workflow_dispatch:
   schedule:
-   - cron: '*/5 7-19 * * 6,0' #Every 5 minutes, between 09:00 AM and 09:59 PM, only on Saturday and Sunday
+    - cron: '*/5 8-20 * * *'
 
 jobs:
   move:
@@ -30,9 +30,9 @@ jobs:
         run: |
           pip install -r code/requirements.txt
 
-      - name: Run PlotBloc.py
+      - name: Run PlotBock.py
         run: |
-            python code/PlotBloc.py
+          python code/PlotBloc.py
       # Create new commit with the changed files and push it to GitHub
       - name: Commit and push changes
         if: ${{ always() }}
