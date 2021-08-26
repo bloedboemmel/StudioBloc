@@ -16,7 +16,7 @@ this is a plot of the official Visitor-Numbers of  [Studio Bloc Darmstadt](https
 |:-:|:-:|
 |<img src="./png/Working.png">|<img src="./png/Working.png">|
 |<img src="./png/Working.png">|<img src="./png/Working.png">|
-|<img src="./png/Working.png">|<img src="./png/Working.png">|
+|<img src="./png/OtherDays/DarmstadtWednesday.png">|<img src="./png/OtherDays/MannheimWednesday.png">|
 |<img src="./png/Working.png">|<img src="./png/Working.png">|
 |<img src="./png/Working.png">|<img src="./png/Working.png">|
 |<img src="./png/Working.png">|<img src="./png/Working.png">|
