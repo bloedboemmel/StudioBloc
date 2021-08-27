@@ -1,13 +1,13 @@
 # Hi Studio Bloc-Fans,
 <!-- BEGIN UPDATINGSUMMARY BOARD-->
-this is a plot of the official Visitor-Numbers of [Steinbock Nürnberg](https://www.dersteinbock-nuernberg.de/), [Steinbock Zirndorf](https://www.dersteinbock-zirndorf.de/), [Steinbock Konstanz](https://www.dersteinbock-konstanz.de/) and [Steinbock Passau](https://www.dersteinbock-passau.de/)
+this is a plot of the official Visitor-Numbers of [Studio Bloc Darmstadt](https://darmstadt.studiobloc.de/) and [Studio Bloc Mannheim](https://mannheim.studiobloc.de/)
 <!-- END UPDATINGSUMMARY BOARD-->
 ### Is it busy right now?
 <!-- BEGIN UPDATINGDATA BOARD-->
-| [Steinbock Nürnberg](https://www.dersteinbock-nuernberg.de/) | [Steinbock Zirndorf](https://www.dersteinbock-zirndorf.de/) | [Steinbock Konstanz](https://www.dersteinbock-konstanz.de/) | [Steinbock Passau](https://www.dersteinbock-passau.de/) |
-|:-:|:-:|:-:|:-:|
-| 48 out of 150 allowed visitors. --> 32% occupied! 5% more than average! | 51 out of 80 allowed visitors. --> 63% occupied! 10% more than average! | 25 out of 90 allowed visitors. --> 27% occupied! 18% less than average! | 65 out of 100 allowed visitors. --> 65% occupied! 20% more than average! |
-|<img src="./png/Nürnberg18_42_31.png">|<img src="./png/Zirndorf18_42_32.png">|<img src="./png/Konstanz18_42_32.png">|<img src="./png/Passau18_42_33.png">|
+| [Studio Bloc Darmstadt](https://darmstadt.studiobloc.de/) | [Studio Bloc Mannheim](https://mannheim.studiobloc.de/) |
+|:-:|:-:|
+| 74 out of 150 allowed visitors. --> 49% occupied! 5% less than average! | 81 out of 130 allowed visitors. --> 62% occupied! 3% more than average! |
+|<img src="./png/Darmstadt19_09_19.png">|<img src="./png/Mannheim19_09_20.png">|
 <!-- END UPDATINGDATA BOARD-->
 
 
