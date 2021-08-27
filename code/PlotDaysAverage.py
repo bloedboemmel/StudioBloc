@@ -7,20 +7,21 @@ from datetime import datetime, timedelta, date
 import pytz
 import numpy as np
 from scipy.interpolate import make_interp_spline
+import GetData
 import matplotlib
 import matplotlib.pyplot as plt
+from city import city, getcsv
 
 startDAYSPNG = "<!-- BEGIN UPDATINGDAYSPNG BOARD-->"
 stopDAYSPNG = "<!-- END UPDATINGDAYSPNG BOARD-->"
 tz = pytz.timezone('Europe/Berlin')
 now = datetime.now(tz)
 weekday = now.weekday()
-times = [[10, 23], [10, 23], [10, 23], [10, 23], [10, 23], [10, 23], [10, 23], [10, 23]]
 
 def main(Stadt):
     for my_date in range(0,7):
         dayname = calendar.day_name[my_date]
-        with open(f'days/{Stadt}/{dayname}.txt') as file:
+        with open(f'days/{Stadt.ShortForm}/{dayname}.txt') as file:
             d = json.load(file)
 
         OldData = []
@@ -51,10 +52,11 @@ def main(Stadt):
         ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%H:%M'))
         plt.ylabel('occupancy[%]')
         plt.title(f'Occupancy {dayname}')
-        pngfile = f"./png/OtherDays/{Stadt}{dayname}.png"
-        if os.path.exists(pngfile):
-            os.remove(pngfile)
-        fig.savefig(pngfile)
+        Stadt.pngfile = f"./png/OtherDays/{Stadt.ShortForm}{dayname}.png"
+        if os.path.exists(Stadt.pngfile):
+            os.remove(Stadt.pngfile)
+        fig.savefig(Stadt.pngfile)
+        plt.close()
 
 
 
@@ -65,11 +67,18 @@ def replace_img_name_days(original_text, Stadte):
     if not can_replace:
         return original_text
 
-    replacing_text = '\n| Darmstadt | Mannheim |\n|:-:|:-:|\n'
+    replacing_text = '\n|'
+    for Stadt in Stadte:
+        replacing_text += f" {Stadt.BoulderName} |"
+    replacing_text += '\n'
+    replacing_text += '|'
+    for i in range(len(Stadte)):
+        replacing_text += ":-:|"
+    replacing_text += '\n'
     for my_date in range(0, 7):
         dayname = calendar.day_name[my_date]
         for Stadt in Stadte:
-            png_name = f"./png/OtherDays/{Stadt}{dayname}.png"
+            png_name = f"png/OtherDays/{Stadt.ShortForm}{dayname}.png"
             if os.path.exists(png_name):
                 replacing_text += f'|<img src="{png_name}">'
             else:
@@ -98,7 +107,10 @@ def write_to_readme(Stadt):
         file.write(readme)
 
 if __name__ == '__main__':
-    main('Darmstadt')
-    main('Mannheim')
-    write_to_readme(['Darmstadt', 'Mannheim'])
+    cities = []
+    for cit in getcsv():
+        cithere = city(cit)
+        cities.append(cithere)
+        main(cithere)
+    write_to_readme(cities)
     
