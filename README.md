@@ -1,26 +1,29 @@
 # Hi Studio Bloc-Fans,
-this is a plot of the official Visitor-Numbers of  [Studio Bloc Darmstadt](https://darmstadt.studiobloc.de/) and [Studio Bloc Mannheim](https://mannheim.studiobloc.de/)
-
-### Is it busy right now? 
-| [Studio Bloc Darmstadt](https://darmstadt.studiobloc.de/) | [Studio Bloc Mannheim](https://mannheim.studiobloc.de/) | 
-|:-:|:-:|
-|<!-- BEGIN UPDATINGDATA BOARD Darmstadt-->81 out of 150 allowed visitors. --> 54% occupied! 11% more than average!<!-- END UPDATINGDATA BOARD Darmstadt-->|<!-- BEGIN UPDATINGDATA BOARD Mannheim-->68 out of 130 allowed visitors. --> 52% occupied! 3% less than average!<!-- END UPDATINGDATA BOARD Mannheim-->|
-|<!-- BEGIN UPDATINGPNG BOARD Darmstadt--><img src="./png/Darmstadt18_38_31.png"><!-- END UPDATINGPNG BOARD Darmstadt-->|<!-- BEGIN UPDATINGPNG BOARD Mannheim--><img src="./png/Mannheim18_38_30.png"><!-- END UPDATINGPNG BOARD Mannheim-->|
+<!-- BEGIN UPDATINGSUMMARY BOARD-->
+this is a plot of the official Visitor-Numbers of [Steinbock Nürnberg](https://www.dersteinbock-nuernberg.de/), [Steinbock Zirndorf](https://www.dersteinbock-zirndorf.de/), [Steinbock Konstanz](https://www.dersteinbock-konstanz.de/) and [Steinbock Passau](https://www.dersteinbock-passau.de/)
+<!-- END UPDATINGSUMMARY BOARD-->
+### Is it busy right now?
+<!-- BEGIN UPDATINGDATA BOARD-->
+| [Steinbock Nürnberg](https://www.dersteinbock-nuernberg.de/) | [Steinbock Zirndorf](https://www.dersteinbock-zirndorf.de/) | [Steinbock Konstanz](https://www.dersteinbock-konstanz.de/) | [Steinbock Passau](https://www.dersteinbock-passau.de/) |
+|:-:|:-:|:-:|:-:|
+| 48 out of 150 allowed visitors. --> 32% occupied! 5% more than average! | 51 out of 80 allowed visitors. --> 63% occupied! 10% more than average! | 25 out of 90 allowed visitors. --> 27% occupied! 18% less than average! | 65 out of 100 allowed visitors. --> 65% occupied! 20% more than average! |
+|<img src="./png/Nürnberg18_42_31.png">|<img src="./png/Zirndorf18_42_32.png">|<img src="./png/Konstanz18_42_32.png">|<img src="./png/Passau18_42_33.png">|
+<!-- END UPDATINGDATA BOARD-->
 
 
 <details>
   <summary>The average visitor data of the whole week</summary>
 
 <!-- BEGIN UPDATINGDAYSPNG BOARD-->
-| Darmstadt | Mannheim |
-|:-:|:-:|
-|<img src="./png/Working.png">|<img src="./png/Working.png">|
-|<img src="./png/Working.png">|<img src="./png/Working.png">|
-|<img src="./png/OtherDays/DarmstadtWednesday.png">|<img src="./png/OtherDays/MannheimWednesday.png">|
-|<img src="./png/OtherDays/DarmstadtThursday.png">|<img src="./png/OtherDays/MannheimThursday.png">|
-|<img src="./png/Working.png">|<img src="./png/Working.png">|
-|<img src="./png/Working.png">|<img src="./png/Working.png">|
-|<img src="./png/Working.png">|<img src="./png/Working.png">|
+| Steinbock Nürnberg | Steinbock Zirndorf | Steinbock Konstanz | Steinbock Passau |
+|:-:|:-:|:-:|:-:|
+|<img src="png/OtherDays/NürnbergMonday.png">|<img src="png/OtherDays/ZirndorfMonday.png">|<img src="./png/Working.png">|<img src="./png/Working.png">|
+|<img src="png/OtherDays/NürnbergTuesday.png">|<img src="png/OtherDays/ZirndorfTuesday.png">|<img src="./png/Working.png">|<img src="./png/Working.png">|
+|<img src="png/OtherDays/NürnbergWednesday.png">|<img src="png/OtherDays/ZirndorfWednesday.png">|<img src="png/OtherDays/KonstanzWednesday.png">|<img src="png/OtherDays/PassauWednesday.png">|
+|<img src="png/OtherDays/NürnbergThursday.png">|<img src="png/OtherDays/ZirndorfThursday.png">|<img src="png/OtherDays/KonstanzThursday.png">|<img src="png/OtherDays/PassauThursday.png">|
+|<img src="png/OtherDays/NürnbergFriday.png">|<img src="png/OtherDays/ZirndorfFriday.png">|<img src="./png/Working.png">|<img src="./png/Working.png">|
+|<img src="png/OtherDays/NürnbergSaturday.png">|<img src="png/OtherDays/ZirndorfSaturday.png">|<img src="./png/Working.png">|<img src="./png/Working.png">|
+|<img src="png/OtherDays/NürnbergSunday.png">|<img src="png/OtherDays/ZirndorfSunday.png">|<img src="./png/Working.png">|<img src="./png/Working.png">|
 <!-- END UPDATINGDAYSPNG BOARD-->
 </details>
 
