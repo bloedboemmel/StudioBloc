@@ -34,7 +34,7 @@ jobs:
 
       - name: Run WochenBloc.py
         run: |
-          python code/WochenBloc.py
+          python code/PlotDaysAverage.py
 
 
       # Create new commit with the changed files and push it to GitHub
