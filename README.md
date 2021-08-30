@@ -23,7 +23,7 @@ this is a plot of the official Visitor-Numbers of [Studio Bloc Darmstadt](https:
 |<img src="png/OtherDays/DarmstadtThursday.png">|<img src="png/OtherDays/MannheimThursday.png">|
 |<img src="png/OtherDays/DarmstadtFriday.png">|<img src="png/OtherDays/MannheimFriday.png">|
 |<img src="png/OtherDays/DarmstadtSaturday.png">|<img src="png/OtherDays/MannheimSaturday.png">|
-|<img src="./png/Working.png">|<img src="./png/Working.png">|
+|<img src="png/OtherDays/DarmstadtSunday.png">|<img src="png/OtherDays/MannheimSunday.png">|
 <!-- END UPDATINGDAYSPNG BOARD-->
 </details>
 
