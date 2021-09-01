@@ -18,7 +18,7 @@ this is a plot of the official Visitor-Numbers of [Studio Bloc Darmstadt](https:
 | Studio Bloc Darmstadt | Studio Bloc Mannheim |
 |:-:|:-:|
 |<img src="png/OtherDays/DarmstadtMonday.png">|<img src="png/OtherDays/MannheimMonday.png">|
-|<img src="./png/Working.png">|<img src="./png/Working.png">|
+|<img src="png/OtherDays/DarmstadtTuesday.png">|<img src="png/OtherDays/MannheimTuesday.png">|
 |<img src="png/OtherDays/DarmstadtWednesday.png">|<img src="png/OtherDays/MannheimWednesday.png">|
 |<img src="png/OtherDays/DarmstadtThursday.png">|<img src="png/OtherDays/MannheimThursday.png">|
 |<img src="png/OtherDays/DarmstadtFriday.png">|<img src="png/OtherDays/MannheimFriday.png">|
