@@ -6,8 +6,8 @@ this is a plot of the official Visitor-Numbers of [Studio Bloc Darmstadt](https:
 <!-- BEGIN UPDATINGDATA BOARD-->
 | [Studio Bloc Darmstadt](https://darmstadt.studiobloc.de/) | [Studio Bloc Mannheim](https://mannheim.studiobloc.de/) |
 |:-:|:-:|
-| 67 out of 150 allowed visitors. --> 44% occupied! 12% more than average! | 38 out of 130 allowed visitors. --> 29% occupied! 6% less than average! |
-|<img src="./png/Darmstadt14_21_56.png">|<img src="./png/Mannheim14_21_57.png">|
+| 66 out of 150 allowed visitors. --> 44% occupied! 6% more than average! | 42 out of 130 allowed visitors. --> 32% occupied! 12% less than average! |
+|<img src="./png/Darmstadt14_54_32.png">|<img src="./png/Mannheim14_54_33.png">|
 <!-- END UPDATINGDATA BOARD-->
 
 
